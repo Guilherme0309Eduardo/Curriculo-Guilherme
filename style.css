@@ -521,4 +521,39 @@ span {
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column; /* Coloca o texto em cima e a imagem embaixo */
+        justify-content: center;
+        text-align: center;
+        gap: 3rem; /* Espaço entre o texto e a imagem */
+        padding-top: 15rem; /* Ajuste para não ficar atrás do header */
+    }
 
+    .home-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-content h1 {
+        font-size: 4rem; /* Diminui um pouco o título no celular */
+    }
+
+    .home-img-container {
+        width: 30rem; /* Redimensiona a imagem para caber na tela do celular */
+        height: 30rem;
+        margin-right: 0; /* Remove a margem negativa que usamos para o desktop */
+        margin-left: 0;
+    }
+
+    .home-sci {
+        position: relative; /* Tira do fundo da tela e coloca abaixo da imagem */
+        bottom: 0;
+        margin-top: 4rem;
+        width: 100%;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
