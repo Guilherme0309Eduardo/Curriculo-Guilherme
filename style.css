@@ -523,11 +523,11 @@ span {
 }
 @media (max-width: 768px) {
     .home {
-        flex-direction: column; /* Coloca o texto em cima e a imagem embaixo */
+        flex-direction: column; 
         justify-content: center;
         text-align: center;
-        gap: 3rem; /* Espaço entre o texto e a imagem */
-        padding-top: 15rem; /* Ajuste para não ficar atrás do header */
+        gap: 3rem; 
+        padding-top: 15rem; 
     }
 
     .home-content {
@@ -538,18 +538,18 @@ span {
     }
 
     .home-content h1 {
-        font-size: 4rem; /* Diminui um pouco o título no celular */
+        font-size: 4rem; 
     }
 
     .home-img-container {
-        width: 30rem; /* Redimensiona a imagem para caber na tela do celular */
+        width: 30rem; 
         height: 30rem;
-        margin-right: 0; /* Remove a margem negativa que usamos para o desktop */
+        margin-right: 0; 
         margin-left: 0;
     }
 
     .home-sci {
-        position: relative; /* Tira do fundo da tela e coloca abaixo da imagem */
+        position: relative; 
         bottom: 0;
         margin-top: 4rem;
         width: 100%;
