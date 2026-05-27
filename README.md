@@ -2,7 +2,7 @@
 
 Este é o meu portfólio e currículo online responsivo, desenvolvido para consolidar minhas experiências, projetos e competências na área de Engenharia de Software.
 
-🚀 **[Clique aqui para visualizar o projeto ao vivo]([COLE_AQUI_O_LINK_DO_SEU_GITHUB_PAGES](https://guilherme0309eduardo.github.io/Curriculo-Guilherme/))**
+ *Clique aqui para visualizar o projeto ao vivo https://guilherme0309eduardo.github.io/Curriculo-Guilherme
 
 ---
 
